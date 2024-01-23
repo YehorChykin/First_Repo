@@ -1,5 +1,3 @@
-# six number in (1,49)
-# five number in (1,36)
 import random
 def get_numbers_ticket(min, max, quantity):
     if (1 <= min <= max <= 1000) and min<=quantity<=max:
