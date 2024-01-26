@@ -23,5 +23,6 @@ def normalize_phone(phone_number):
     elif len(find_complet_num) == 12:
         find_complet_num = f"+{find_complet_num}"
     return find_complet_num
+
 sanitized_numbers = [normalize_phone(num) for num in raw_numbers]
 print("Нормалізовані номери телефонів для SMS-розсилки:", sanitized_numbers)
