@@ -15,6 +15,3 @@ if result is not None:
 
     print(result)
 
-
-# test
-
