@@ -1,7 +1,6 @@
 import random
 def get_numbers_ticket(min, max, quantity):
     if (1 <= min <= max <= 1000) and (max-min)>=quantity and quantity>0:
-        
         all_numbers = list(range(min, max+1))
         lottery_numbers=random.sample(all_numbers, quantity)
         return lottery_numbers
